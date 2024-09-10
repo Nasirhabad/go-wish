@@ -1,10 +1,11 @@
 package database
 
 import (
-	"go-wishlist-api-main/models"
+	"github.com/LENOVO/go-wishlist-api/models"
 
-	"gorm.io/driver/mysql"
+	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"
+	_ "modernc.org/sqlite" // This is the driver we are using
 )
 
 var DB *gorm.DB
@@ -13,7 +14,8 @@ var DB *gorm.DB
 func InitDatabase() {
 	var err error
 
-	DB, err = gorm.Open(mysql.Open("go_wishlist_apidb.db"), &gorm.Config{})
+	DB, err = gorm.Open(sqlite.Open("go_wishlist_apidb.db"), &gorm.Config{})
+
 	if err != nil {
 		panic("failed to connect database")
 	}

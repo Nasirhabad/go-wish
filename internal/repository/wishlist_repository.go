@@ -1,7 +1,7 @@
 package repository
 
 import (
-	"go-wishlist-api/internal/domain"
+	"github.com/LENOVO/go-wishlist-api/internal/domain"
 
 	"gorm.io/gorm"
 )

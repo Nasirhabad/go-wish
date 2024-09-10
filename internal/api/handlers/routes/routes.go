@@ -1,8 +1,8 @@
 package routes
 
 import (
-	"go-wishlist-api/internal/api/handlers"
-	"go-wishlist-api/internal/usecase"
+	"github.com/LENOVO/go-wishlist-api/internal/api/handlers"
+	"github.com/LENOVO/go-wishlist-api/internal/usecase"
 
 	"github.com/labstack/echo/v4"
 )

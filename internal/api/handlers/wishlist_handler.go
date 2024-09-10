@@ -1,9 +1,10 @@
 package handlers
 
 import (
-	"go-wishlist-api/internal/domain"
-	"go-wishlist-api/internal/usecase"
 	"net/http"
+
+	"github.com/LENOVO/go-wishlist-api/internal/domain"
+	"github.com/LENOVO/go-wishlist-api/internal/usecase"
 
 	"github.com/labstack/echo/v4"
 )

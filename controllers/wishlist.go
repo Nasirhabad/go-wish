@@ -1,9 +1,10 @@
 package controllers
 
 import (
-	"go-wishlist-api/database"
-	"go-wishlist-api/models"
 	"net/http"
+
+	"github.com/LENOVO/go-wishlist-api/database"
+	"github.com/LENOVO/go-wishlist-api/models"
 
 	"github.com/labstack/echo/v4"
 )

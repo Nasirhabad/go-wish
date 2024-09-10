@@ -2,9 +2,9 @@ package main
 
 import (
 	"github.com/LENOVO/go-wishlist-api/database"
-	"github.com/LENOVO/go-wishlist-api/internal/api/routes"
+	"github.com/LENOVO/go-wishlist-api/internal/api/handlers/routes"
+	"github.com/LENOVO/go-wishlist-api/internal/api/server"
 	"github.com/LENOVO/go-wishlist-api/internal/repository"
-	"github.com/LENOVO/go-wishlist-api/internal/server"
 	"github.com/LENOVO/go-wishlist-api/internal/usecase"
 
 	"github.com/labstack/echo/v4"
